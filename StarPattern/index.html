@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Print Pattern</title>
+  <script src="/pattern.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: 'Roboto';
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="input-group mb-3">
+                <label class="control-label">Enter the levels:</label> 
+                <input type="text" id="txtInputLevels"  placeholder="Enter number of levels"></input><br><br>
+            </div>
+        </div>
+    </div>
+    <input type="button" class="btn btn-info" id="myText" value="click me" onclick="printPattern();" /><br>
+    <span>Output will be display in the console</span>
+  <!-- <input type="text" id="text1"></input>
+  <input type="button" id="myText" placeholder="Enter number of levels" value="click me" onclick="printPattern();" /> -->
+</body>
+
+</html>
